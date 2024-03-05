@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <style>
+        /*
+        header nav // header 밑 자식들 중 nav
+        header >h1 // 1대자식
+        header hi  // header 밑 모든 h1
+        */
+    header>h1{color:red;}
+    div h1{
+        color:blue;
+    }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>월요일</h1>
+        <nav>
+            <h1>화요일</h1>
+        </nav>
+        <h1>수요일</h1>
+    </header>
+
+    <div>
+        <h1>목요일</h1>
+    </div>
+</body>
+</html>
